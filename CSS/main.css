@@ -72,6 +72,11 @@ div,li {
 .key h1{
   font-size: 2.5rem;
 }
+
+
+
+
+
 .section_title {
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
@@ -102,6 +107,18 @@ section ul {
     background-color: white;
     padding: 20px;
 }
+/* 相談部分*/
+.section_inner > section:first-of-type ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;            
+  padding: 0;
+}
+.section_inner > section:first-of-type ul li {
+  flex: 0 1 calc(50% - 20px); 
+  box-sizing: border-box;
+}
+/* 相談部分ここまで*/
 .drink_menu {
     width: 80%;
 }
