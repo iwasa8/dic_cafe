@@ -108,13 +108,13 @@ section ul {
     padding: 20px;
 }
 /* 相談部分*/
-.section_inner > section:first-of-type ul {
+.recommended_menu {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;            
   padding: 0;
 }
-.section_inner > section:first-of-type ul li {
+.recommended_menu li {
   flex: 0 1 calc(50% - 20px); 
   box-sizing: border-box;
 }
